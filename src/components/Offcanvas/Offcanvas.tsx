@@ -67,7 +67,7 @@ export const Offcanvas: React.FC<OffcanvasProps> = ({
           <button
             type="button"
             onClick={onClose}
-            className={cn("text-gray-500 hover:text-gray-800 text-2xl", closeButtonClassName)}
+            className={cn("text-gray-500 hover:text-gray-800 text-2xl cursor-pointer", closeButtonClassName)}
             aria-label="Close"
           >
             &times;
