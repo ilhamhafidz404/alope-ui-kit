@@ -87,7 +87,7 @@ export const Alert: React.FC<AlertProps> = ({
 
             {
                 withClose &&
-                <svg onClick={() => setVisible(false)} viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-7 h-7">
+                <svg onClick={() => setVisible(false)} viewBox="0 0 24 24" fill="none" stroke="currentColor" className="w-7 h-7 cursor-pointer">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
                 </svg>
             }
