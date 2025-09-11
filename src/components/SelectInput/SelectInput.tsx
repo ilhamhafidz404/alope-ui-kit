@@ -37,7 +37,7 @@ export const SelectInput: React.FC<SelectInputProps> = ({ label, error, labelCla
     multiValueRemove: () =>
       '!text-primary-700 !hover:bg-primary/30 !hover:text-primary-700 !rounded-r-md !px-1 !cursor-pointer',
     menu: () => '!mt-1 !border-secondary !bg-white !rounded-md !shadow-lg !z-10',
-    input: () => '!text-gray-900',
+    input: () => '!text-gray-900 cursor-pointer',
     placeholder: () => '!text-gray-400',
     singleValue: () => '!text-gray-900',
   }
