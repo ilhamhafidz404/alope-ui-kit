@@ -105,7 +105,7 @@ const Toast: React.FC<ToastProps> = ({
 
       <button
         onClick={handleClose}
-        className="ml-2 text-lg leading-none hover:text-red-500 focus:outline-none"
+        className="ml-2 text-lg leading-none hover:text-red-500 focus:outline-none cursor-pointer"
         aria-label="Close"
       >
         &times;
