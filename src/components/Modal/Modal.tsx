@@ -55,7 +55,7 @@ export const Modal: React.FC<ModalProps> = ({
                         {showCloseButton && (
                             <button
                                 onClick={onClose}
-                                className="text-gray-500 hover:text-gray-800 transition"
+                                className="text-gray-500 hover:text-gray-800 transition cursor-pointer"
                             >
                                 ✕
                             </button>
@@ -66,7 +66,7 @@ export const Modal: React.FC<ModalProps> = ({
             </div>
             {/* Overlay click to close */}
             {
-                overlayClose && <div className="absolute inset-0" onClick={onClose} />
+                overlayClose && <div className="absolute inset-0 -z-10" onClick={onClose} />
             }
         </div>
     )
