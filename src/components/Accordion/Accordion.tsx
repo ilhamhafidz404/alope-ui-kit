@@ -65,7 +65,7 @@ export const Accordion: React.FC<AccordionProps> = ({
           >
             <button
               onClick={() => toggle(i)}
-              className="w-full flex justify-between items-center p-4 text-left"
+              className="w-full flex justify-between items-center p-4 text-left cursor-pointer"
             >
               <span className={cn("font-semibold", labelClassName)}>{item.label}</span>
               {typeof icon === "function"
